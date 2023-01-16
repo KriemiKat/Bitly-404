@@ -19,14 +19,7 @@ header > div {
     font-family: cursive;
     font-size: 30px;
     color: orange;
-    font-weight: bold;
-}
-
-main {
-    margin-left: 15%;
-}
-
-.logo {
+    font-weight: bold;    
     display: inline;
     width: 60%;
     margin-top: 2%;
@@ -36,26 +29,39 @@ main {
 .link    {
     float: right;
     display: inline;
-    width: 7%;
-    color: #654545 
+    font-size: 20px;
+    color: #654545;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 60px;
 }
 
 .text {
-    width: 800px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
     margin-left: 0%;
-    margin-left: 10%;
 }
 
 .photo {
-    display: inline;
-    height: 340px;
-    width: 280px;
-    margin-left: 20%;
-    margin-top: 1em;
+    height: 350px;
+    width: 300px;
 }
 
 .big-text {
-    font-size: 50px;
+    align-items: stretch;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
     margin: 0;
 }
 
