@@ -10,8 +10,8 @@ body {
 }
 
  header {
-    width: 1100px;
-    margin-left: calc(50%-400px);
+    width: 1000px;
+    margin-left: calc(50%-600px);
     display: inline-block;   
 }
 
@@ -23,7 +23,6 @@ header > div {
     display: inline;
     width: 60%;
     margin-top: 2%;
-    margin-right: 30%;
 }
 
 .link    {
@@ -32,7 +31,7 @@ header > div {
     font-size: 20px;
     color: #654545;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 1%;
     
 }
 
@@ -43,13 +42,14 @@ main {
     align-items: center;
     padding-top: 60px;
     gap: 60px;
-}
 
-.text {
+ 
+ .text {
     display: flex;
     flex-direction: column;
-    width: 900px;
-    margin-left: 0%;
+    width: 1000px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .photo {
